@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { EventosComponent } from './eventos/eventos.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: EventosComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
